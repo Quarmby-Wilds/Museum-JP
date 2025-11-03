@@ -171,6 +171,11 @@ function clearCart() {
 
 // - Render cart items and totals - //
 function render() {
+    const pathname=window.location.pathname;
+    if (!pathname.endsWith("/cart.html")) {
+        return
+    }
+    
     const itemsDiv = document.getElementById("items");
     const summaryPre = document.getElementById("summary");
     const emptyMsg = document.getElementById("emptyMsg");

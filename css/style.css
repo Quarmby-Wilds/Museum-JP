@@ -68,11 +68,12 @@ button {
     border-radius: 10px;
     text-transform: uppercase;
 }
-.title-bar button.active {
-    background-color: #573202;
-}
 button:hover {
     background-color: #382206;
+}
+button.active {
+    font-weight: bold;
+    background-color: #573202;
 }
 
 .content-area {
@@ -235,10 +236,6 @@ button:hover {
 
 /* collections.html formatting */
 
-button.active {
-    background-color: #573202;
-}
-
 .grid-container-collections {
     display: grid;
     grid-template-columns: 1fr minmax(0, 1200px) 1fr;
@@ -278,6 +275,30 @@ button.active {
     margin: 10px;
     padding: 10px;
 }
+.item-collections-4 {
+    grid-column: 2 / span 2;
+    grid-row: 5;
+    background-color: rgba(250, 247, 240, 0.92);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+.item-collections-5 {
+    grid-column: 1 / span 2;
+    grid-row: 6;
+    background-color: rgba(250, 247, 240, 0.92);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+.item-collections-6 {
+    grid-column: 2 / span 2;
+    grid-row: 7;
+    background-color: rgba(250, 247, 240, 0.92);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
 
 .collections-image-1 {
     grid-column: 3;
@@ -290,6 +311,18 @@ button.active {
 .collections-image-3 {
     grid-column: 3;
     grid-row: 4;
+}
+.collections-image-4 {
+    grid-column: 1;
+    grid-row: 5;
+}
+.collections-image-5 {
+    grid-column: 3;
+    grid-row: 6;
+}
+.collections-image-6 {
+    grid-column: 1;
+    grid-row: 7;
 }
 
 /* shop.html formatting */
