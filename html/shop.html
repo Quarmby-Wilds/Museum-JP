@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Cedar">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Hidden Histories of Japan</title> <!--This is the text in the tab list-->
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="title-bar">
+            <h1>Hidden Histories of Japan</h1>
+            <button onclick="location.href='../index.html'">Home</button>
+            <button onclick="location.href='../html/staff.html'">Staff</button>
+            <button onclick="location.href='../html/collections.html'">Collections</button>
+            <button class="active" onclick="location.href='../html/shop.html'" >Shop</button>
+            <button onclick="location.href='../html/cart.html'">Cart</button>
+        </div>
+
+        <div class="shop-currency-toggle">
+            <div class="currency-toggle">
+                <button class="currency-btn active" data-currency="JPY">JPY</button>
+                <button class="currency-btn" data-currency="USD">USD</button>
+            </div>
+        </div>
+
+        <div class="grid-container-shop grid-container">
+            <div class="content-area">
+                <div class="item-shop-1 shop-item" data-id="item001">
+                    <h2>Handcrafted Clay Bowl</h2>
+                    <div class="shop-image-1 photo-container">
+                        <img src="../images/shop/ShopProduct-JapanMuseum-ClayBowl-WhiteBackground.jpg" alt="Image of a Japanese clay bowl" class="photo-image" onclick="openModal(this)">
+                    </div>
+                    <p>
+                        <b>Price: </b><span class="price" data-price="3800"></span><br>
+                        <b>Description: </b>A limited-edition handcrafted clay bowl inspired by the cord-marked textures and flame-rimmed designs of the Jōmon Roots gallery. Each bowl is shaped and fired by contemporary potters in Aomori using traditional earthenware techniques that echo Japan's earliest ceramic artistry. Slight variations in form and glaze celebrate the individuality found in every ancient vessel.<br><br>
+                        “Even the smallest artifact can carry an entire life story.” <b>— Keiko Tanaka, Collections Manager</b>
+                        <br><br>
+                    </p>
+                    <div class="source-and-qty">
+                        <div class="source-text">
+                            <b>Image source: </b><a href="https://commons.wikimedia.org/wiki/File%3AClevelandart_1984.68.jpg" target="_blank">Here</a>
+                        </div>
+                        <span class="qty-badge" aria-live="polite"></span>
+                    </div>
+                    &nbsp;
+                    <div class="shop-button">
+                        <button onclick="addToCart(this)" data-id="item001" data-name="Clay Bowl" data-price="3800" data-image="../images/shop/ShopProduct-JapanMuseum-ClayBowl-WhiteBackground.jpg">Add to Cart</button>
+                    </div>
+                </div>       
+                <div class="item-shop-2 shop-item" data-id="item002">
+                    <h2>Silk Scarf</h2>
+                    <div class="shop-image-2 photo-container">
+                        <img src="../images/shop/ShopProduct-JapanMuseum-Scarf.jpg" alt="Image of a Japanese scarf" class="photo-image" onclick="openModal(this)">
+                    </div>
+                    <p>
+                        <b>Price: </b><span class="price" data-price="8200"></span><br>
+                        <b>Description: </b>This elegant silk scarf captures the rhythmic wave lines and trade patterns depicted in the Maritime Exchange gallery. Designed in collaboration with textile artists from Okinawa, it features indigo and rust hues that mirror the ocean routes connecting Japan, the Ryukyu Islands, and Southeast Asia.<br><br>
+                        “The sea was never a barrier — it was the first storyteller.” <b>— Dr. Daniel Ishikawa, Curator of Anthropology</b>
+                        <br>&nbsp;<br>
+                    </p>
+                    <div class="source-and-qty">
+                        <div class="source-text">
+                            <b>Image source: </b><a href="https://pngtree.com/freepng/wave-pattern-silk-scarf-art_20932996.html" target="_blank">Here</a>
+                        </div>
+                        <span class="qty-badge" aria-live="polite"></span>
+                    </div>
+                    &nbsp;
+                    <div class="shop-button">
+                        <button onclick="addToCart(this)" data-id="item002" data-name="Scarf" data-price="3800" data-image="../images/shop/ShopProduct-JapanMuseum-Scarf.jpg">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="item-shop-3 shop-item" data-id="item003">
+                    <h2>Replica Amulet</h2>
+                    <div class="shop-image-3 photo-container">
+                        <img src="../images/shop/ShopProduct-JapanMuseum-Amulet.jpg" alt="Image of a replica Japanese amulet" class="photo-image" onclick="openModal(this)">
+                    </div>
+                    <p>
+                        <b>Price: </b><span class="price" data-price="5000"></span><br>
+                        <b>Description: </b>A faithful bronze-tone replica of a protective amulet unearthed in northern Honshu, on display in the Memory & Myth gallery. The original was inscribed with protective script fragments now interpreted as early prayers. Each replica includes a miniature translation card and velvet display pouch.<br><br>
+                        “We don't just recover objects — we restore relationships.” <b>— Dr. Hanae Mori, Founding Director</b>
+                        <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
+                    </p>
+                    <div class="source-and-qty">
+                        <div class="source-text">
+                            <b>Image source: </b><a href="https://www.rubylane.com/item/1325734-5770/D%C5%8Dtaku-Ancient-Japanese-Bronze-Ritual-Bell" target="_blank">Here</a>
+                        </div>
+                        <span class="qty-badge" aria-live="polite"></span>
+                    </div>
+                    &nbsp;
+                    <div class="shop-button">
+                        <button onclick="addToCart(this)" data-id="item003" data-name="Amulet" data-price="5000" data-image="../images/shop/ShopProduct-JapanMuseum-Amulet.jpg">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="item-shop-4 shop-item" data-id="item004">
+                    <h2>Book — Hidden Histories: The Living Layers of Japan</h2>
+                    <div class="shop-image-4 photo-container">
+                        <img src="../images/shop/ShopProduct-JapanMuseum-Book.jpg" alt="Image of a Japanese book" class="photo-image" onclick="openModal(this)">
+                    </div>
+                    <p>
+                        <b>Price: </b><span class="price" data-price="4600"></span><br>
+                        <b>Description: </b>The official companion to the museum's opening exhibition, this bilingual (Japanese-English) catalog includes essays by museum staff and full-color photographs of key artifacts. Chapters explore themes of ancestry, trade, and transformation through archaeology, anthropology, and cultural history.<br><br>
+                        “Truth in history isn't what survives — it's what we take the time to listen for.” <b>— Yuki Nakamura, Cultural Historian</b>
+                        <br><br>
+                    </p>
+                    <div class="source-and-qty">
+                        <div class="source-text">
+                            <b>Image source: </b><a href="https://50wattsbooks.com/products/book-cover-design-in-japan-1910s-40s?srsltid=AfmBOooaQ6Thv5FwEyO_P1pcGop6P90EvrbVXVkqrQsM3Z1x0gQ0d3NF" target="_blank">Here</a>
+                        </div>
+                        <span class="qty-badge" aria-live="polite"></span>
+                    </div>
+                    &nbsp;
+                    <div class="shop-button">
+                        <button onclick="addToCart(this)" data-id="item004" data-name="Book" data-price="4600" data-image="../images/shop/ShopProduct-JapanMuseum-Book.jpg">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeModal()">&times;</span>
+                <img id="modal-image" src="" alt="">
+            </div>
+        </div>
+
+        <footer>
+            <p>This page was created as an academic activity and all information is fictional.<br>Some textual content was created using generative AI and directed by a human.<br>Background image source: <a href="https://www.freepik.com/free-photos-vectors/japanese-pattern" target="_blank">Here</a> (was edited in Photoshop)</p>
+        </footer>
+        <script src="../js/index.js"></script>
+    </body>
+</html>

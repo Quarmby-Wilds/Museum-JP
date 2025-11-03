@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Cedar">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Hidden Histories of Japan</title> <!--This is the text in the tab list-->
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="title-bar">
+            <h1>Hidden Histories of Japan</h1>
+            <button onclick="location.href='../index.html'">Home</button>
+            <button onclick="location.href='../html/staff.html'">Staff</button>
+            <button onclick="location.href='../html/collections.html'">Collections</button>
+            <button onclick="location.href='../html/shop.html'">Shop</button>
+            <button class="active" onclick="location.href='../html/cart.html'">Cart</button>
+        </div>
+        
+        <div class="grid-container-cart grid-container">
+            <div class="content-area">
+                <div class="cart-main">
+                    <div id="currencyToggle">
+                        <b>Currency:</b>
+                        <button type="button" class="currency-btn active" data-currency="JPY">¥ JPY</button>
+                        <button type="button" class="currency-btn" data-currency="USD">$ USD</button>
+                    </div>
+
+                    <div class="controls">
+                        <label><input type="checkbox" id="memberToggle"> Member Discount (15%)</label>
+                    </div>
+                    &nbsp;
+
+                    <div id="emptyMsg" class="empty" hidden>Your cart is empty.</div>
+                    <div id="items" hidden></div>
+                    <pre id="summary" hidden></pre>
+
+                    <div class="actions">
+                        <button id="clearBtn">Clear Cart</button>
+                        <button onclick="location.href='../html/shop.html'">Keep Shopping</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>This page was created as an academic activity and all information is fictional.<br>Some textual content was created using generative AI and directed by a human.<br>Background image source: <a href="https://www.freepik.com/free-photos-vectors/japanese-pattern" target="_blank">Here</a> (was edited in Photoshop)</p>
+        </footer>
+        <script src="../js/index.js"></script>
+    </body>
+</html>
